@@ -39,6 +39,16 @@ ferriferous
 ```
 
 
+### Tip
+
+Use it to generate project/release names:
+
+```bash
+$ echo $(random-word)-$(random-word)
+blacksnake-nautics
+```
+
+
 ## License
 
 MIT © [Sindre Sorhus](http://sindresorhus.com)
