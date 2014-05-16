@@ -37,7 +37,6 @@
     "unique-random": "~0.1.0"
   },
   "devDependencies": {
-    "mocha": "*",
-    "request": "~2.33.0"
+    "mocha": "*"
   }
 }
