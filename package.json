@@ -1,16 +1,16 @@
 {
   "name": "random-word",
   "version": "0.1.0",
-  "description": "Returns a random English word",
+  "description": "Get a random English word",
   "license": "MIT",
-  "bin": {
-    "random-word": "cli.js"
-  },
   "repository": "sindresorhus/random-word",
   "author": {
     "name": "Sindre Sorhus",
     "email": "sindresorhus@gmail.com",
     "url": "http://sindresorhus.com"
+  },
+  "bin": {
+    "random-word": "cli.js"
   },
   "engines": {
     "node": ">=0.10.0"
@@ -23,18 +23,19 @@
     "cli.js"
   ],
   "keywords": [
+    "cli",
+    "bin",
     "word",
     "words",
     "random",
     "en",
     "english",
     "dict",
-    "dictionary",
-    "cli"
+    "dictionary"
   ],
   "dependencies": {
-    "word-list": "~0.1.0",
-    "unique-random": "~0.1.0"
+    "unique-random": "^1.0.0",
+    "word-list": "^1.0.0"
   },
   "devDependencies": {
     "mocha": "*"

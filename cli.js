@@ -1,15 +1,28 @@
 #!/usr/bin/env node
 'use strict';
-var fs = require('fs');
-var randomWord = require('./index');
+var pkg = require('./package.json');
+var randomWord = require('./');
+var argv = process.argv.slice(2);
+var input = argv[0];
 
-if (process.argv.indexOf('-h') !== -1 || process.argv.indexOf('--help') !== -1) {
-	console.log('Usage:\n  $ random-word\n  ferriferous');
+function help() {
+	console.log([
+		'',
+		'  ' + pkg.description,
+		'',
+		'  Example',
+		'    random-word',
+		'    ferriferous'
+	].join('\n'));
+}
+
+if (argv.indexOf('--help') !== -1) {
+	help();
 	return;
 }
 
-if (process.argv.indexOf('-v') !== -1 || process.argv.indexOf('--version') !== -1) {
-	console.log(require('./package').version);
+if (argv.indexOf('--version') !== -1) {
+	console.log(pkg.version);
 	return;
 }
 
