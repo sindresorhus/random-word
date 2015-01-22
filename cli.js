@@ -3,7 +3,6 @@
 var pkg = require('./package.json');
 var randomWord = require('./');
 var argv = process.argv.slice(2);
-var input = argv[0];
 
 function help() {
 	console.log([

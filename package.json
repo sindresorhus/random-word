@@ -7,7 +7,7 @@
   "author": {
     "name": "Sindre Sorhus",
     "email": "sindresorhus@gmail.com",
-    "url": "http://sindresorhus.com"
+    "url": "sindresorhus.com"
   },
   "bin": {
     "random-word": "cli.js"
@@ -34,7 +34,7 @@
     "dictionary"
   ],
   "dependencies": {
-    "unique-random": "^1.0.0",
+    "unique-random-array": "^1.0.0",
     "word-list": "^1.0.0"
   },
   "devDependencies": {
