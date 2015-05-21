@@ -33,6 +33,7 @@
     "dictionary"
   ],
   "dependencies": {
+    "meow": "^3.1.0",
     "unique-random-array": "^1.0.0",
     "word-list": "^1.0.0"
   },
