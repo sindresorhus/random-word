@@ -6,9 +6,9 @@ var randomWord = require('./');
 meow({
 	help: [
 		'Example',
-		'  random-word',
+		'  $ random-word',
 		'  ferriferous'
-	].join('\n')
+	]
 });
 
 console.log(randomWord());

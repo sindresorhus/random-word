@@ -5,7 +5,7 @@
 
 ## Usage
 
-```sh
+```
 $ npm install --save random-word
 ```
 
@@ -22,7 +22,7 @@ randomWord();
 
 ## CLI
 
-```sh
+```
 $ npm install --global random-word
 ```
 
@@ -30,7 +30,7 @@ $ npm install --global random-word
 $ random-word --help
 
   Example
-    random-word
+    $ random-word
     ferriferous
 ```
 
@@ -39,7 +39,7 @@ $ random-word --help
 
 Use it to generate project/release names:
 
-```sh
+```
 $ echo $(random-word)-$(random-word)
 blacksnake-nautics
 ```
