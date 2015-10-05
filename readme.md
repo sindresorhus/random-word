@@ -10,13 +10,13 @@ $ npm install --save random-word
 ```
 
 ```js
-var randomWord = require('random-word');
+const randomWord = require('random-word');
 
 randomWord();
-//=> ferriferous
+//=> 'ferriferous'
 
 randomWord();
-//=> microfloppies
+//=> 'microfloppies'
 ```
 
 
