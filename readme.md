@@ -1,13 +1,16 @@
 # random-word [![Build Status](https://travis-ci.org/sindresorhus/random-word.svg?branch=master)](https://travis-ci.org/sindresorhus/random-word)
 
-> Get a random English word from the [Letterpress Word List](https://github.com/atebits/Words/blob/master/Words/en.txt)
+> Get a random English word
 
 
-## Usage
+## Install
 
 ```
 $ npm install --save random-word
 ```
+
+
+## Usage
 
 ```js
 const randomWord = require('random-word');
@@ -20,31 +23,11 @@ randomWord();
 ```
 
 
-## CLI
+## Related
 
-```
-$ npm install --global random-word
-```
-
-```
-$ random-word --help
-
-  Example
-    $ random-word
-    ferriferous
-```
-
-
-### Tip
-
-Use it to generate project/release names:
-
-```
-$ echo $(random-word)-$(random-word)
-blacksnake-nautics
-```
+- [random-word-cli](https://github.com/sindresorhus/random-word-cli) - CLI for this module
 
 
 ## License
 
-MIT © [Sindre Sorhus](http://sindresorhus.com)
+MIT © [Sindre Sorhus](https://sindresorhus.com)

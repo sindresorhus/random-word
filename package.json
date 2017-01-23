@@ -9,21 +9,16 @@
     "email": "sindresorhus@gmail.com",
     "url": "sindresorhus.com"
   },
-  "bin": "cli.js",
   "engines": {
-    "node": ">=0.10.0"
+    "node": ">=4"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "xo && ava"
   },
   "files": [
-    "index.js",
-    "cli.js"
+    "index.js"
   ],
   "keywords": [
-    "cli-app",
-    "cli",
-    "bin",
     "word",
     "words",
     "random",
@@ -33,11 +28,11 @@
     "dictionary"
   ],
   "dependencies": {
-    "meow": "^3.4.0",
     "unique-random-array": "^1.0.0",
-    "word-list": "^1.0.0"
+    "word-list": "^2.0.0"
   },
   "devDependencies": {
-    "mocha": "*"
+    "ava": "*",
+    "xo": "*"
   }
 }
