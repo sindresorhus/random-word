@@ -22,7 +22,7 @@ randomWord();
 //=> 'microfloppies'
 ```
 
-The [underlying corpus](https://raw.githubusercontent.com/sindresorhus/word-list/master/words.txt) contains 274,925 English words.
+The [underlying list of words](https://raw.githubusercontent.com/sindresorhus/word-list/master/words.txt) is a 2.68MB file with 274,925 English words.
 
 ## Related
 
