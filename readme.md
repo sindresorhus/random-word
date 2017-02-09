@@ -22,7 +22,8 @@ randomWord();
 //=> 'microfloppies'
 ```
 
-The [underlying list of words](https://raw.githubusercontent.com/sindresorhus/word-list/master/words.txt) is a 2.68MB file with 274,925 English words.
+The [underlying list of words](words.txt) is a 2.7 MB text file with 274,925 English words.
+
 
 ## Related
 
