@@ -1,4 +1,4 @@
-# random-word [![Build Status](https://travis-ci.org/sindresorhus/random-word.svg?branch=master)](https://travis-ci.org/sindresorhus/random-word)
+# random-word
 
 > Get a random English word
 
