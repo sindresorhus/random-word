@@ -1,6 +1,6 @@
 {
 	"name": "random-word",
-	"version": "2.0.0",
+	"version": "3.0.0",
 	"description": "Get a random English word",
 	"license": "MIT",
 	"repository": "sindresorhus/random-word",
