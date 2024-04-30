@@ -4,14 +4,14 @@
 
 ## Install
 
-```
-$ npm install --save random-word
+```sh
+npm install random-word
 ```
 
 ## Usage
 
 ```js
-const randomWord = require('random-word');
+import randomWord from 'random-word';
 
 randomWord();
 //=> 'ferriferous'
@@ -24,4 +24,4 @@ The [underlying list of words](https://github.com/sindresorhus/word-list/blob/ma
 
 ## Related
 
-- [random-word-cli](https://github.com/sindresorhus/random-word-cli) - CLI for this module
+- [random-word-cli](https://github.com/sindresorhus/random-word-cli) - CLI for this package

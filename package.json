@@ -1,38 +1,46 @@
 {
-  "name": "random-word",
-  "version": "2.0.0",
-  "description": "Get a random English word",
-  "license": "MIT",
-  "repository": "sindresorhus/random-word",
-  "author": {
-    "name": "Sindre Sorhus",
-    "email": "sindresorhus@gmail.com",
-    "url": "sindresorhus.com"
-  },
-  "engines": {
-    "node": ">=4"
-  },
-  "scripts": {
-    "test": "xo && ava"
-  },
-  "files": [
-    "index.js"
-  ],
-  "keywords": [
-    "word",
-    "words",
-    "random",
-    "en",
-    "english",
-    "dict",
-    "dictionary"
-  ],
-  "dependencies": {
-    "unique-random-array": "^1.0.0",
-    "word-list": "^2.0.0"
-  },
-  "devDependencies": {
-    "ava": "*",
-    "xo": "*"
-  }
+	"name": "random-word",
+	"version": "2.0.0",
+	"description": "Get a random English word",
+	"license": "MIT",
+	"repository": "sindresorhus/random-word",
+	"funding": "https://github.com/sponsors/sindresorhus",
+	"author": {
+		"name": "Sindre Sorhus",
+		"email": "sindresorhus@gmail.com",
+		"url": "https://sindresorhus.com"
+	},
+	"type": "module",
+	"exports": {
+		"types": "./index.d.ts",
+		"default": "./index.js"
+	},
+	"sideEffects": false,
+	"engines": {
+		"node": ">=18"
+	},
+	"scripts": {
+		"test": "xo && ava"
+	},
+	"files": [
+		"index.js",
+		"index.d.ts"
+	],
+	"keywords": [
+		"word",
+		"words",
+		"random",
+		"en",
+		"english",
+		"dict",
+		"dictionary"
+	],
+	"dependencies": {
+		"unique-random-array": "^3.0.0",
+		"word-list": "^4.0.0"
+	},
+	"devDependencies": {
+		"ava": "^6.1.2",
+		"xo": "^0.58.0"
+	}
 }

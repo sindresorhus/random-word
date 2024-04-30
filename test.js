@@ -1,6 +1,6 @@
 import test from 'ava';
-import m from './';
+import randomWord from './index.js';
 
-test(t => {
-	t.true(m().length > 1);
+test('main', t => {
+	t.true(randomWord().length > 1);
 });

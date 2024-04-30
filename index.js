@@ -1,6 +1,7 @@
-'use strict';
-const fs = require('fs');
-const uniqueRandomArray = require('unique-random-array');
-const wordListPath = require('word-list');
+import fs from 'node:fs';
+import uniqueRandomArray from 'unique-random-array';
+import wordListPath from 'word-list';
 
-module.exports = uniqueRandomArray(fs.readFileSync(wordListPath, 'utf8').split('\n'));
+const randomWord = uniqueRandomArray(fs.readFileSync(wordListPath, 'utf8').split('\n'));
+
+export default randomWord;
